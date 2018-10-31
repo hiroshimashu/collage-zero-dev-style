@@ -157,6 +157,249 @@ body {
 }
 
 
+/* ------------------  User login screen -------------------- */
+
+.user-login-wrapper {
+    width: 600px;
+    height: 641.7px;
+    background-color: #EDEDEE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title-login {
+    margin-left: 17.4px;
+    width: 52px;
+    height: 13px;
+}
+
+.user-name-wrapper {
+    width: 176.4px;
+    height: 29px;
+    margin-top: 19.667px;
+    margin-left:402.83px;
+    background-color: #ffffff;
+}
+
+.user-name {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    line-height: 12px;
+    padding-top: 8.5px;
+}
+
+.user-menu {
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66.915px;
+    letter-spacing : 0.9pt;
+    color: black;
+    text-align: center;
+}
+
+.cm-forecast-button-wrapper {
+    margin-top: 24.46px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.cm-forecast-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.logout-button-wrapper {
+    margin-top: 118.603px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 180.175px;
+    height: 45.217px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.logout-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #8A8C8E;
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+
+
+/* ------------------  Admin screen -------------------- */
+
+
+.admin-wrapper {
+    width: 600px;
+    height: 641.7px;
+    background-color: #EDEDEE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.admin-name-wrapper {
+    width: 176.4px;
+    height: 29px;
+    margin-top: 19.667px;
+    margin-left:402.83px;
+    background-color: #ffffff;
+}
+
+.admin-name {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    line-height: 12px;
+    padding-top: 8.5px;
+}
+
+.login-logo-admin {
+    width: 356.08px;
+    height: 126.746px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12.324px;
+}
+
+.admin-menu {
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66.915px;
+    letter-spacing : 0.9pt;
+    color: black;
+    text-align: center;
+}
+
+
+
+.maintain-user-button-wrapper {
+    margin-top: 24.46px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.maintain-user-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.output-log-button-wrapper {
+    margin-top: 18px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.output-log-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.update-data-button-wrapper {
+    margin-top: 18px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.update-data-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.admin-logout-button-wrapper {
+    margin-top: 51.668px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 180.175px;
+    height: 45.217px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
