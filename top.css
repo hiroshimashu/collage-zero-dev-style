@@ -1,0 +1,411 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ------------------  Login screen -------------------- */
+
+
+.login-wrapper {
+    width: 600px;
+    height: 641.7px;
+    background-color: #EDEDEE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 90.6px;
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(0, 0, 0, 1) 0%,rgba(0, 5, 6, 1) 5.54%,rgba(0, 18, 24, 1) 13.21%,rgba(0, 39, 53, 1) 22.1%,rgba(0, 69, 94, 1) 31.93%,rgba(0, 107, 147, 1) 42.52%,rgba(0, 153, 210, 1) 53.58%,rgba(0, 174, 239, 1) 58.32%,rgba(0, 0, 0, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(0, 0, 0, 1) ),color-stop(0.0554,rgba(0, 5, 6, 1) ),color-stop(0.1321,rgba(0, 18, 24, 1) ),color-stop(0.221,rgba(0, 39, 53, 1) ),color-stop(0.3193,rgba(0, 69, 94, 1) ),color-stop(0.4252,rgba(0, 107, 147, 1) ),color-stop(0.5358,rgba(0, 153, 210, 1) ),color-stop(0.5832,rgba(0, 174, 239, 1) ),color-stop(1,rgba(0, 0, 0, 1) ));
+    background : -o-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    background : -ms-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000' ,GradientType=0)";
+    background : linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#000000' , GradientType=1);
+}
+
+.header-title {
+    font-size: 13px;
+    color: white;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: lighter;
+    line-height: 13px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 17.4px;
+}
+
+.header-close-button {
+    width: 15px;
+    height: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 494.73px;
+}
+
+.close-button {
+    width: 100%;
+    height: 100%;
+}
+
+.login-logo {
+    width: 356.08px;
+    height: 126.746px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 68px;
+}
+
+.creative-brain-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.login-form {
+    width: 364.1px;
+    height: 90px;
+    margin-top: 77.9px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.user-id-wrapper {
+    display: flex;
+}
+
+.user-id {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 84.85px;
+    text-align: right;
+    letter-spacing: 1pt;
+
+}
+
+.user-id-input {
+    margin-left: 15.555px;
+    width: 265px;
+    height: 32.667px
+}
+
+.user-password-wrapper {
+    display: flex;
+    margin-top: 24.6667px;
+}
+
+.user-password {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 84.85px;
+    letter-spacing: 0.5pt;
+}
+
+.user-password-input {
+    margin-left: 14.255px;
+    width: 265px;
+    height: 32.667px
+}
+
+
+.login-button-wrapper {
+    margin-top: 74.703px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+}
+
+.login-button {
+    width: 100%;
+    height: 100%;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1pt;
+}
+
+.forget-password-wrapper {
+    font-size: 12px;
+    letter-spacing: 1.1pt;
+    width: 342px;
+    height: 13.8px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    text-align: center;
+    border-bottom: solid 1px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 37.55px;
+}
+
+.forget-password {
+    margin-bottom: 5px;
+    line-height:12px;
+}
+
+
+/* ------------------  User login screen -------------------- */
+
+.user-login-wrapper {
+    width: 600px;
+    height: 641.7px;
+    background-color: #EDEDEE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title-login {
+    margin-left: 17.4px;
+    width: 52px;
+    height: 13px;
+}
+
+.user-name-wrapper {
+    width: 176.4px;
+    height: 29px;
+    margin-top: 19.667px;
+    margin-left:402.83px;
+    background-color: #ffffff;
+}
+
+.user-name {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    line-height: 12px;
+    padding-top: 8.5px;
+}
+
+.user-menu {
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66.915px;
+    letter-spacing : 0.9pt;
+    color: black;
+    text-align: center;
+}
+
+.cm-forecast-button-wrapper {
+    margin-top: 24.46px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.cm-forecast-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.logout-button-wrapper {
+    margin-top: 118.603px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 180.175px;
+    height: 45.217px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.logout-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #8A8C8E;
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+
+
+/* ------------------  Admin screen -------------------- */
+
+
+.admin-wrapper {
+    width: 600px;
+    height: 641.7px;
+    background-color: #EDEDEE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.admin-name-wrapper {
+    width: 176.4px;
+    height: 29px;
+    margin-top: 19.667px;
+    margin-left:402.83px;
+    background-color: #ffffff;
+}
+
+.admin-name {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    line-height: 12px;
+    padding-top: 8.5px;
+}
+
+.login-logo-admin {
+    width: 356.08px;
+    height: 126.746px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12.324px;
+}
+
+.admin-menu {
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66.915px;
+    letter-spacing : 0.9pt;
+    color: black;
+    text-align: center;
+}
+
+
+
+.maintain-user-button-wrapper {
+    margin-top: 24.46px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.maintain-user-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.output-log-button-wrapper {
+    margin-top: 18px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.output-log-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.update-data-button-wrapper {
+    margin-top: 18px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 266px;
+    height: 43.333px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.update-data-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background : #00B7D6;
+    background : rgba(0, 183, 214, 1);
+    border-radius : 22pt;
+    -moz-border-radius : 22pt;
+    -webkit-border-radius : 22pt;
+    border: none;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+.admin-logout-button-wrapper {
+    margin-top: 51.668px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 180.175px;
+    height: 45.217px;
+    font-size: 18px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    letter-spacing: 1pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
