@@ -246,17 +246,197 @@ body {
 
 .forecast1-wrapper {
     width: 100%;
+    display: flex;
     height: 129.5px;
     margin-top: 4.4px;
     margin-bottom: 4.4px;
     background-color: #ffffff;
 }
 
-.forecast1-title {
+.forecast1-title-wrapper {
     width: 81.33px;
+    position: relative;
     height:100%;
     background-color: #00B7D6;
+    color: #ffffff;
+    font-size : 13px;
+    line-height : 19px;
+    letter-spacing : 2.6pt;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
 }
+
+.forecast1-title {
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.forecast1-rank-wrapper {
+    width: 164px;
+    height: 100px;
+    display: flex;
+    background-color: #00B7D6;
+    margin-left: 15.67px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.forecast1-rank-title {
+    font-size : 12px;
+    line-height : 18.98px;
+    letter-spacing : 2.4pt;
+    color: #ffffff;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left: 23.71px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.forecast1-rank {
+    font-family : Tw Cen MT;
+    color: #ffffff;
+    font-size : 70px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 5px;
+}
+
+
+.forecast1-unified-result-wrapper {
+    width: 633.7px;
+    height: 93.1px;
+    margin-top: 19px;
+    margin-left: 16.86px;
+}
+
+
+.forecast1-unified-result-title {
+    font-size : 14px;
+    line-height : 10px;
+    letter-spacing : 2.8pt;
+    color : #231F20;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
+
+}
+
+
+.forecast1-unified-result-fact-wrapper {
+    display: flex;
+    margin-top: 12.05px;
+}
+
+
+    /* ---------  CM好感度　----------　*/
+
+.forecast1-unified-result-fact1-title-wrapper {
+    width: 175.574px;
+    height: 21px;
+    background-color: #D8D9DA;
+}
+
+.forecast1-unified-result-fact1-title {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size : 9px;
+    line-height: 9px;
+    letter-spacing : 1.8pt;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-unified-result-fact1-main-wrapper {
+    display: flex;
+    font-family:'Noto Sans Japanese',sans-serif;
+    height: 21px;
+    margin-top: 20.82px;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.forecast1-unified-result-fact1-main1 {
+    font-size : 9px;
+    line-height: 9px;
+    letter-spacing : 1.8pt;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.forecast1-unified-result-fact1-main2 {
+    font-size : 21px;
+    letter-spacing : 4.2px;
+    line-height: 21px;
+    margin-left: 8.46px;
+}
+
+　　/* ---------  CM好感要因　----------　*/
+
+.forecast1-unified-result-fact2-title-wrapper {
+    width: 218.989px;
+    height: 21px;
+    background-color: #D8D9DA;
+}
+
+.forecast1-unified-result-fact2-title {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size : 9px;
+    line-height: 9px;
+    letter-spacing : 1.8pt;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-unified-result-fact2 {
+    font-size : 9px;
+    line-height: 9px;
+    letter-spacing : 1.8pt;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family:'Noto Sans Japanese',sans-serif;
+}
+
+
+
+   /* ----------　性年代別好感度 ------------- */
+
+
+.forecast1-unified-result-fact3-title-wrapper {
+    width: 218.989px;
+    height: 21px;
+    background-color: #D8D9DA;
+}
+
+.forecast1-unified-result-fact3-title {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size : 9px;
+    line-height: 9px;
+    letter-spacing : 1.8pt;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-unified-result-fact3 {
+    font-size : 9px;
+    line-height : 15.41px;
+    letter-spacing : 1.8pt;
+    margin-top: 14.92px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family:'Noto Sans Japanese',sans-serif;
+}
+
+
+
+
 
 .forecast2-wrapper {
     width: 100%;
@@ -265,11 +445,28 @@ body {
     background-color: #ffffff;
 }
 
-.forecast2-title {
+.forecast2-title-wrapper {
     width: 81.33px;
     height:100%;
+    position: relative;
     background-color: #00B7D6;
+    color: #ffffff;
+    font-size : 13px;
+    line-height : 19px;
+    letter-spacing : 2.6pt;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
 }
+
+.forecast2-title {
+    width: 35px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 .forecast3-wrapper {
     width: 100%;
@@ -277,11 +474,29 @@ body {
     background-color: #ffffff;
 }
 
-.forecast3-title {
+.forecast3-title-wrapper {
     width: 81.33px;
     height:100%;
     background-color: #00B7D6;
+    position: relative;
+    color: #ffffff;
+    font-size : 13px;
+    line-height : 19px;
+    letter-spacing : 2.6pt;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
 }
+
+.forecast3-title {
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 
 
 
