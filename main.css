@@ -55,7 +55,7 @@ body {
 
 .content-input-wrapper {
     width: 934.532px;
-    height: 150.75px;
+    height: 606.76px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 21.523px;
@@ -327,10 +327,9 @@ body {
 .forecast1-unified-result-fact-wrapper {
     display: flex;
     margin-top: 12.05px;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
 }
-
-
-    /* ---------  CM好感度　----------　*/
 
 .forecast1-unified-result-fact1-title-wrapper {
     width: 175.574px;
@@ -373,8 +372,6 @@ body {
     margin-left: 8.46px;
 }
 
-　　/* ---------  CM好感要因　----------　*/
-
 .forecast1-unified-result-fact2-title-wrapper {
     width: 218.989px;
     height: 21px;
@@ -394,16 +391,16 @@ body {
 
 .forecast1-unified-result-fact2 {
     font-size : 9px;
-    line-height: 9px;
+    line-height : 15.41px;
     letter-spacing : 1.8pt;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 14.92px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     font-family:'Noto Sans Japanese',sans-serif;
 }
 
 
-
-   /* ----------　性年代別好感度 ------------- */
 
 
 .forecast1-unified-result-fact3-title-wrapper {
@@ -442,6 +439,7 @@ body {
     width: 100%;
     height: 129.5px;
     margin-bottom: 4.4px;
+    display: flex;
     background-color: #ffffff;
 }
 
@@ -466,12 +464,96 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.forecast2-result-graph-wrapper {
+    width: 561.884px;
+    height: 101.19px;
+    margin-top: 14.8px;
+    margin-left: 30px;
+}
+
+.forecast2-result-graph-x-axis {
+    border-style : Solid;
+    border-color : #D1D3D4;
+    border-width : 3px;
+}
+
+.forecast2-result-graph-x-axis-label {
+    font-family: 'Noto Sans Japanese',sans-serif;
+    font-size: 5px;
+    letter-spacing : 0.24px;
+    color : #231F20;
+}
+
+.forecast2-result-graph-y-axis {
+    border-style : Solid;
+    border-color : #D1D3D4;
+    border-width : 3px;
+}
+
+.forecast2-result-graph-y-axis-label {
+    font-family: 'Noto Sans Japanese',sans-serif;
+    font-size: 3px;
+    letter-spacing : 0.24px;
+    color : #231F20;
+}
+
+.forecast2-result-graph-bar {
+    width: 18.8px;
+}
+
+.forecast2-result-fact-wrapper {
+    margin-left: 15.8px;
+    margin-top: 11px;
+    width: 219px;
+    height: 103px;
+}
+
+.forecast2-result-fact-tittle-wrapper {
+    width: 100%;
+    height: 21px;
+    background-color: #D8D9DA;
+}
+
+.forecast2-result-fact-tittle {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size : 9px;
+    line-height: 9px;
+    letter-spacing : 1.8pt;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast2-result-fact-rank-wrapper {
+    display: flex;
+    margin-left: 30.6px;
+    margin-top: 14.4px;
+}
+
+.forecast2-result-fact-rank-upper-wrapper {
+    font-size : 8px;
+    letter-spacing : 1.6px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    line-height : 18.41px;
+}
+
+.forecast2-result-fact-rank-lower-wrapper {
+    font-size : 8px;
+    letter-spacing : 1.6px;
+    color : #231F20;
+    margin-left: 41px;
+    line-height : 18.41px;
+    font-family:'Noto Sans Japanese',sans-serif;
+}
 
 
 .forecast3-wrapper {
     width: 100%;
     height: 129.5px;
     background-color: #ffffff;
+    display: flex;
 }
 
 .forecast3-title-wrapper {
@@ -494,6 +576,273 @@ body {
     top:50%;
     transform: translate(-50%, -50%);
 }
+
+.forecast3-result-gender-wrapper {
+    width: 17px;
+    height: 73.455px;
+    margin-left: 32.935px;
+    margin-top: 29.7px;
+}
+
+.forecast3-result-gender-men-circle {
+    width: 14.7px;
+    height: 14.7px;
+    background : #0093D8;
+    border-radius : 7px;
+    -moz-border-radius : 7px;
+    -webkit-border-radius : 7px;
+
+}
+
+.forecast3-result-gender-men {
+    font-size : 7px;
+    letter-spacing : 1.82px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    color : #231F20;
+    width: 20px;
+    margin-top: 5.9px;
+    margin-left: -1.5px;
+    text-align: center;
+}
+
+.forecast3-result-gender-women-wrapper {
+    margin-top: 15px;
+}
+
+.forecast3-result-gender-women-circle {
+    width: 14.7px;
+    height: 14.7px;
+    background : #EF5BA1;
+    border-radius : 7px;
+    -moz-border-radius : 7px;
+    -webkit-border-radius : 7px;
+}
+
+.forecast3-result-gender-women {
+    font-size : 7px;
+    letter-spacing : 1.82px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    color : #231F20;
+    margin-left: -1.5px;
+    margin-top: 5.9px;
+    width: 20px;
+    text-align: center;
+}
+
+.forecast3-result-graph-wrapper {
+    width: 501px;
+    height: 101px;
+    margin-top: 14.8px;
+    margin-left: 30px;
+}
+
+.forecast3-result-graph-x-axis {
+    border-style : Solid;
+    border-color : #D1D3D4;
+    border-width : 3px;
+}
+
+.forecast3-result-graph-x-axis-label {
+    font-family: 'Noto Sans Japanese',sans-serif;
+    font-size: 5px;
+    letter-spacing : 0.24px;
+    color : #231F20;
+}
+
+.forecast3-result-graph-y-axis {
+    border-style : Solid;
+    border-color : #D1D3D4;
+    border-width : 3px;
+}
+
+.forecast3-result-graph-y-axis-label {
+    font-family: 'Noto Sans Japanese',sans-serif;
+    font-size: 3px;
+    letter-spacing : 0.24px;
+    color : #231F20;
+}
+
+.forecast3-result-graph-bar-men {
+    width: 18.8px;
+}
+
+.forecast3-result-graph-bar-women {
+    width: 18.8px;
+}
+
+.forecast3-result-fact-wrapper {
+    margin-left: 29px;
+    margin-top: 11px;
+    width: 219px;
+    height: 103px;
+}
+
+.forecast3-result-fact-tittle-wrapper {
+    width: 100%;
+    height: 21px;
+    background-color: #D8D9DA;
+}
+
+.forecast3-result-fact-tittle {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size : 9px;
+    line-height: 9px;
+    letter-spacing : 1.8pt;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+
+.forecast3-result-fact-rank-wrapper {
+    display: flex;
+    margin-left: 30.6px;
+    margin-top: 14.4px;
+}
+
+.forecast3-result-fact-rank-upper-wrapper {
+    font-size : 8px;
+    letter-spacing : 1.6px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    line-height : 18.41px;
+}
+
+.forecast3-result-fact-rank-lower-wrapper {
+    font-size : 8px;
+    letter-spacing : 1.6px;
+    color : #231F20;
+    margin-left: 41px;
+    line-height : 18.41px;
+    font-family:'Noto Sans Japanese',sans-serif;
+}
+
+
+.result-operation-wrapper {
+    width: 100%;
+    height: 72.7px;
+    margin-top: 15.55px;
+    background : #DCDDDE;
+    display: flex;
+}
+
+.result-operation-forecast-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 45.3px;
+}
+
+.result-operation-forecast-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.result-operation-forecast {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+
+.result-operation-output-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 21.6px;
+}
+
+.result-operation-output-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.result-operation-output {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.result-operation-save-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 21.6px;
+}
+
+.result-operation-save-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.result-operation-save {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.result-operation-back-wrapper {
+    position: relative;
+    width: 122.73px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 176.14px;
+}
+
+.result-operation-back-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.result-operation-back {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

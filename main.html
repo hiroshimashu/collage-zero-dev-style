@@ -8,6 +8,7 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -121,31 +122,156 @@
                                 </div>
                             </div>
                             <div class="forecast1-unified-result-fact3">
-                                特に好感度が高い年代「0000」<br/>
+                               特に好感度が高い年代「0000」<br/>
                                 特にマイナスな年代「0000」
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class = "forecast2-wrapper">
                 <div class="forecast2-title-wrapper">
                     <div class = "forecast2-title">
                         好感要因
                     </div>
                 </div>
+                <div class="forecast2-result-graph-wrapper">
+                </div>
+                <div class="forecast2-result-fact-wrapper">
+                    <div class = "forecast2-result-fact-tittle-wrapper">
+                        <div class="forecast2-result-fact-tittle">
+                            CM好感要因
+                        </div>
+                    </div>
+                    <div class = "forecast2-result-fact-rank-wrapper">
+                        <div class="forecast2-result-fact-rank-upper-wrapper">
+                            <div class="forecast2-result-fact-rank-upper-title">
+                                上位三項目
+                            </div>
+                            <div class = "forecast2-result-fact-rank-1">
+                                1)　ストーリー
+                            </div>
+                            <div class = "forecast2-result-fact-rank-1">
+                                2)　心が和む
+                            </div>
+                            <div class = "forecast2-result-fact-rank-1">
+                                3)　出演者
+                            </div>
+                        </div>
+                        <div class="forecast2-result-fact-rank-lower-wrapper">
+                            <div class="forecast2-result-fact-rank-upper-title">
+                                下位三項目
+                            </div>
+                            <div class = "forecast2-result-fact-rank-1">
+                                1)　セクシー
+                            </div>
+                            <div class = "forecast2-result-fact-rank-1">
+                                2)　音楽
+                            </div>
+                            <div class = "forecast2-result-fact-rank-1">
+                                3)　かわいい　
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="forecast3-wrapper">
                 <div class="forecast3-title-wrapper">
                     <div class="forecast3-title">
                          性年<br/>代別<br/>好感度
                     </div>
                 </div>
+                <div class="forecast3-result-gender-wrapper">
+                    <div class="forecast3-result-gender-men-wrapper">
+                        <div class="forecast3-result-gender-men-circle"></div>
+                        <div class="forecast3-result-gender-men">
+                            男性
+                        </div>
+                    </div>
+                    <div class="forecast3-result-gender-women-wrapper">
+                        <div class="forecast3-result-gender-women-circle"></div>
+                        <div class="forecast3-result-gender-women">
+                            女性
+                        </div>
+                    </div>
+                </div>
+                <div class = "forecast3-result-graph-wrapper"></div>
+                <div class="forecast3-result-fact-wrapper">
+                    <div class = "forecast3-result-fact-tittle-wrapper">
+                        <div class="forecast3-result-fact-tittle">
+                            CM好感要因
+                        </div>
+                    </div>
+                    <div class = "forecast3-result-fact-rank-wrapper">
+                        <div class="forecast3-result-fact-rank-upper-wrapper">
+                            <div class="forecast3-result-fact-rank-upper-title">
+                                上位三項目
+                            </div>
+                            <div class = "forecast3-result-fact-rank-1">
+                                1)　主婦39
+                            </div>
+                            <div class = "forecast3-result-fact-rank-1">
+                                2)　男50-59
+                            </div>
+                            <div class = "forecast3-result-fact-rank-1">
+                                3)　男40-49
+                            </div>
+                        </div>
+                        <div class="forecast3-result-fact-rank-lower-wrapper">
+                            <div class="forecast3-result-fact-rank-upper-title">
+                                下位三項目
+                            </div>
+                            <div class = "forecast3-result-fact-rank-1">
+                                1)　セクシー
+                            </div>
+                            <div class = "forecast3-result-fact-rank-1">
+                                2)　音楽
+                            </div>
+                            <div class = "forecast3-result-fact-rank-1">
+                                3)　かわいい　
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "result-operation-wrapper">
+        <div class="result-operation-forecast-wrapper">
+            <img src = "static/result-operation-button-white.svg" class="result-operation-forecast-button">
+
+            </img>
+            <div src = "static/result-operation-button.svg" class="result-operation-forecast">
+                好感度を予測
+            </div>
+        </div>
+        <div class="result-operation-output-wrapper">
+            <img src = "static/result-operation-button-blue.svg" class="result-operation-output-button">
+
+            </img>
+            <div class="result-operation-output">
+                レポートを出力
+            </div>
+        </div>
+        <div class="result-operation-save-wrapper">
+            <img src = "static/result-operation-button-white.svg" class="result-operation-save-button">
+
+            </img>
+            <div  class="result-operation-save">
+                CM情報保存
+            </div>
+        </div>
+        <div class="result-operation-back-wrapper">
+            <img src = "static/result-operation-back.svg" class="result-operation-back-button">
+
+            </img>
+            <div  class="result-operation-back">
+                戻る
             </div>
         </div>
     </div>
 </div>
-
-
 </body>
 </html>
