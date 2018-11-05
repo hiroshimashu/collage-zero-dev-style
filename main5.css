@@ -1,0 +1,411 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ----------------- User maintain screen ----------------- */
+.user-maintain-wrapper {
+    width: 1024px;
+    height: 767px;
+    background-color: #EDEDEE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-maintain-header-wrapper {
+    width: 100%;
+    height: 50.56px;
+    display: flex;
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(0, 0, 0, 1) 0%,rgba(0, 5, 6, 1) 5.54%,rgba(0, 18, 24, 1) 13.21%,rgba(0, 39, 53, 1) 22.1%,rgba(0, 69, 94, 1) 31.93%,rgba(0, 107, 147, 1) 42.52%,rgba(0, 153, 210, 1) 53.58%,rgba(0, 174, 239, 1) 58.32%,rgba(0, 0, 0, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(0, 0, 0, 1) ),color-stop(0.0554,rgba(0, 5, 6, 1) ),color-stop(0.1321,rgba(0, 18, 24, 1) ),color-stop(0.221,rgba(0, 39, 53, 1) ),color-stop(0.3193,rgba(0, 69, 94, 1) ),color-stop(0.4252,rgba(0, 107, 147, 1) ),color-stop(0.5358,rgba(0, 153, 210, 1) ),color-stop(0.5832,rgba(0, 174, 239, 1) ),color-stop(1,rgba(0, 0, 0, 1) ));
+    background : -o-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    background : -ms-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000' ,GradientType=0)";
+    background : linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#000000' , GradientType=1);
+}
+
+.user-maintain-header-title {
+    font-size: 13px;
+    color: white;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    line-height: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 32.3px;
+    letter-spacing: 2.8pt;
+}
+
+.user-maintain-header-title2 {
+    width: 187.5px;
+    height: 14.9px;
+    margin-left: 237.58px;
+    margin-top: 17.82px;
+}
+
+.user-maintain-header-close-button {
+    width: 15px;
+    height: 15px;
+    margin-left: 370.798px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.user-maintain-main-wrapper {
+    width: 100%;
+    height: 643.83px;
+}
+
+.user-maintain-main-admin-wrapper {
+    position: relative;
+    width: 176.474px;
+    height: 29px;
+    margin-left:833.26px;
+    margin-top: 24px;
+    background: #ffffff;
+}
+
+.user-maintain-main-admin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 125px;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+    font-size : 12px;
+    letter-spacing : 2.4px;
+}
+
+.user-maintain-main-user-id-wrapper {
+    width: 471.4px;
+    height: 32.6px;
+    display: flex;
+    margin-left: 161px;
+    margin-top: 106.6px;
+}
+
+.user-maintain-main-user-id-title {
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    line-height: 18px;
+    font-family:'Noto Sans Japanese',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 70px;
+}
+
+.user-maintain-main-user-id {
+    width: 264.26px;
+    height: 100%;
+    margin-left: 13.56px;
+    background : #FFFFFF;
+}
+
+.user-maintain-main-user-id-list-wrapper {
+    background : #00B7D6;
+    border-radius : 8px;
+    -moz-border-radius : 8px;
+    -webkit-border-radius : 8px;
+    width: 108.25px;
+    height: 21px;
+    margin-left: 23px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.user-maintain-main-user-id-list {
+    font-size : 12px;
+    line-height : 12px;
+    letter-spacing : 1.2px;
+    text-align: center;
+    color : #FFFFFF;
+    font-family:'Noto Sans Japanese',sans-serif;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+}
+
+.user-maintain-main-user-password-wrapper {
+    width: 363.09px;
+    height: 32.6px;
+    display: flex;
+    margin-left: 142.24px;
+    margin-top: 24.6px;
+}
+
+.user-maintain-main-user-password-title {
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    line-height: 18px;
+    font-family:'Noto Sans Japanese',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 88px;
+}
+
+.user-maintain-main-user-password {
+    width: 264.26px;
+    height: 100%;
+    margin-left: 13.56px;
+    background : #FFFFFF;
+}
+
+.user-maintain-main-user-name-wrapper {
+    width: 363.09px;
+    height: 32.6px;
+    display: flex;
+    margin-left: 142.24px;
+    margin-top: 24.6px;
+}
+
+.user-maintain-main-user-name-title {
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    line-height: 18px;
+    font-family:'Noto Sans Japanese',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 88px;
+    text-align: right;
+}
+
+.user-maintain-main-user-name {
+    width: 264.26px;
+    height: 100%;
+    margin-left: 13.56px;
+    background : #FFFFFF;
+}
+
+.user-maintain-main-user-mail-wrapper {
+    width: 363.09px;
+    height: 32.6px;
+    display: flex;
+    margin-left: 142.24px;
+    margin-top: 24.6px;
+}
+
+.user-maintain-main-user-mail-title {
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    line-height: 18px;
+    font-family:'Noto Sans Japanese',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 88px;
+    text-align: right;
+}
+
+.user-maintain-main-user-mail {
+    width: 264.26px;
+    height: 100%;
+    margin-left: 13.56px;
+    background : #FFFFFF;
+}
+
+.user-maintain-main-member-id-wrapper {
+    width: 363.09px;
+    height: 32.6px;
+    display: flex;
+    margin-left: 142.24px;
+    margin-top: 24.6px;
+}
+
+.user-maintain-main-member-id-title {
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    line-height: 18px;
+    font-family:'Noto Sans Japanese',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 88px;
+    text-align: right;
+}
+
+.user-maintain-main-member-id {
+    width: 264.26px;
+    height: 100%;
+    margin-left: 13.56px;
+    background : #FFFFFF;
+}
+
+
+.user-maintain-main-member-name-wrapper {
+    width: 363.09px;
+    height: 32.6px;
+    display: flex;
+    margin-left: 142.24px;
+    margin-top: 24.6px;
+}
+
+.user-maintain-main-member-name-title {
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    line-height: 18px;
+    font-family:'Noto Sans Japanese',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 88px;
+    text-align: right;
+}
+
+.user-maintain-main-member-name {
+    width: 264.26px;
+    height: 100%;
+    margin-left: 13.56px;
+    background : #FFFFFF;
+}
+
+.user-maintain-main-save-content-wrapper {
+    width: 140px;
+    height:17px;
+    margin-left: 148.5px;
+    margin-top: 71.2px;
+    display: flex;
+}
+
+.user-maintain-main-save-content-title {
+    font-size : 15px;
+    letter-spacing : 0.75px;
+    color : #231F20;
+    line-height: 15px;
+    font-family:'Noto Sans Japanese',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100px;
+    text-align: right;
+}
+
+.user-maintain-main-save-content-box-wrapper {
+    width: 17px;
+    height: 17px;
+    margin-left: 15.032px;
+}
+
+.user-maintain-main-save-content-box {
+    width: 100%;
+    height: 100%;
+}
+
+.user-maintain-operation-wrapper {
+    width: 100%;
+    height: 72.7px;
+    margin-top: 15.55px;
+    background : #DCDDDE;
+    display: flex;
+}
+
+.user-maintain-operation-forecast-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 45.3px;
+}
+
+.user-maintain-operation-forecast-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.user-maintain-operation-forecast {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+
+.user-maintain-operation-output-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 21.6px;
+}
+
+.user-maintain-operation-output-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.user-maintain-operation-output {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.user-maintain-operation-save-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 21.6px;
+}
+
+.user-maintain-operation-save-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.user-maintain-operation-save {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.user-maintain-operation-back-wrapper {
+    position: relative;
+    width: 122.73px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 395.2px;
+}
+
+.user-maintain-operation-back-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.user-maintain-operation-back {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+
+
+

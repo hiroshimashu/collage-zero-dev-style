@@ -144,6 +144,139 @@ body {
 .content-idea-wrapper {
     width: 100%;
     height: 114.8px;
+    display: flex;
+}
+
+.content-idea1-wrapper {
+    width: 462.282px;
+    height: 100%;
+}
+
+.content-idea1-title-wrapper {
+    width: 100%;
+    height: 37.52px;
+    background:#447FC1;
+    display: flex;
+}
+
+.content-idea1-title-left {
+    font-size : 14px;
+    line-height : 10px;
+    letter-spacing : 2.8px;
+    color : #FFFFFF;
+    margin-left: 18.76px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.content-idea1-title-right-background {
+    position: relative;
+    background: #ffffff;
+    width: 179.135px;
+    height: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content-idea1-title-right {
+    position: absolute;
+    width: 153px;
+    font-size : 14px;
+    line-height : 10px;
+    letter-spacing : 2.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.content-idea1-main-wrapper {
+    width: 100%;
+    height: 77.26px;
+    background: #ffffff;
+    font-size : 10px;
+    letter-spacing : 2px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.content-idea1-main {
+    width: 341.1px;
+    height: 44.76px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-idea2-wrapper {
+    width: 462.282px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.content-idea2-title-wrapper {
+    width: 100%;
+    height: 37.52px;
+    background:#EF5BA1;
+    display: flex;
+}
+
+.content-idea2-title-left {
+    font-size : 14px;
+    line-height : 10px;
+    letter-spacing : 2.8px;
+    color : #FFFFFF;
+    margin-left: 18.76px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.content-idea2-title-right-background {
+    position: relative;
+    background: #ffffff;
+    width: 179.135px;
+    height: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content-idea2-title-right {
+    position: absolute;
+    width: 153px;
+    font-size : 14px;
+    line-height : 10px;
+    letter-spacing : 2.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-idea2-main-wrapper {
+    width: 100%;
+    height: 77.26px;
+    background: #ffffff;
+    font-size : 10px;
+    letter-spacing : 2px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.content-idea2-main {
+    width: 341.1px;
+    height: 44.76px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .forecast-result-wrapper {
@@ -151,6 +284,8 @@ body {
     height: 440.342px;
     margin-top: 15.67px;
 }
+
+
 
 .forecast-result-title-wrapper {
     width: 497.164px;
@@ -220,6 +355,506 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.forecast1-idea1-wrapper {
+    width: 400.84px;
+    height: 109.333px;
+    margin-left: 12.8px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.forecast1-idea1-title {
+    width: 100%;
+    height: 19px;
+    background : #447FC1;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    color : #FFFFFF;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    line-height: 19px;
+}
+
+.forecast1-idea1-result-main-wrapper {
+    width: 100%;
+    height: 83px;
+    margin-top: 7.33px;
+    display: flex;
+}
+
+
+.forecast1-idea1-result-main-rank-wrapper {
+    width: 70.85px;
+    height: 83px;
+    background: #447FC1;
+    position: relative;
+}
+
+
+.forecast1-idea1-result-rank-title {
+    position: absolute;
+    font-size : 8px;
+    line-height : 11px;
+    letter-spacing : 1.44px;
+    color : #FFFFFF;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 45px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea1-result-rank {
+    position: absolute;
+    top: 41.8px;
+    line-height: 41px;
+    width: 41px;
+    left: 55%;
+    transform: translateX(-50%);
+    font-family : Tw Cen MT;
+    font-size : 41px;
+    text-align: center;
+    letter-spacing : 6.56px;
+    color : #FFFFFF;
+
+}
+
+
+.forecast1-idea1-result-factor1-wrapper {
+    width: 81.141px;
+    height: 63.72px;
+    margin-left: 11.286px;
+    margin-top: 6px;
+}
+
+.forecast1-idea1-result-factor1-title-wrapper {
+    width: 100%;
+    height: 16px;
+    background: #D8D9DA;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    color : #231F20;
+    line-height: 16px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-idea1-result-factor1-main1 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    color : #231F20;
+    text-align: center;
+    margin-top: 10.1px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea1-result-factor1-main2 {
+    font-size : 7px;
+    display: inline;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    color : #231F20;
+    margin-left: 7px;
+    margin-top: 60px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea1-result-factor1-main3 {
+    font-size : 19px;
+    display: inline;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    color : #231F20;
+    margin-left: 7px;
+    margin-top: 60px;
+    font-family: 'Noto Sans Japanese',sans-ser
+}
+
+.forecast1-idea1-result-factor2-wrapper {
+    width: 105.9px;
+    height: 63.72px;
+    margin-left: 11.286px;
+    margin-top: 6px;
+}
+
+.forecast1-idea1-result-factor2-title-wrapper {
+    width: 100%;
+    height: 16px;
+    background: #D8D9DA;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    color : #231F20;
+    line-height: 16px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-idea1-result-factor2-main-wrapper {
+    width: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forecast1-idea1-result-factor2-main1 {
+    font-size : 7px;
+    line-height: 9px;
+    color : #231F20;
+    margin-top: 10.1px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing : 0.6px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast1-idea1-result-factor2-main2 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea1-result-factor2-main3 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea1-result-factor2-main4 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast1-idea1-result-factor3-wrapper {
+    width: 108px;
+    height: 63.72px;
+    margin-left: 11.286px;
+    margin-top: 6px;
+}
+
+.forecast1-idea1-result-factor3-title-wrapper {
+    width: 100%;
+    height: 16px;
+    background: #D8D9DA;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    color : #231F20;
+    line-height: 16px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-idea1-result-factor3-main-wrapper {
+    width: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forecast1-idea1-result-factor3-main1 {
+    font-size : 7px;
+    line-height: 9px;
+    color : #231F20;
+    margin-top: 10.1px;
+    letter-spacing : 0.6px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast1-idea1-result-factor3-main2 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea1-result-factor3-main3 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea1-result-factor3-main4 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.divider {
+    width: 1px;
+    height: 114px;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 15.32px;
+    margin-right: 15.32px;
+    background-color: #D1D3D4;
+}
+
+
+.forecast1-idea2-wrapper {
+    width: 400.84px;
+    height: 109.333px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.forecast1-idea2-title {
+    width: 100%;
+    height: 19px;
+    background : #EF5BA1;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    color : #FFFFFF;
+    text-align: center;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    line-height: 19px;
+}
+
+.forecast1-idea2-result-main-wrapper {
+    width: 100%;
+    height: 83px;
+    margin-top: 7.33px;
+    display: flex;
+}
+
+
+.forecast1-idea2-result-main-rank-wrapper {
+    width: 70.85px;
+    height: 83px;
+    background: #EF5BA1;
+    position: relative;
+}
+
+
+.forecast1-idea2-result-rank-title {
+    position: absolute;
+    font-size : 8px;
+    line-height : 11px;
+    letter-spacing : 1.44px;
+    color : #FFFFFF;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 45px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea2-result-rank {
+    position: absolute;
+    top: 41.8px;
+    line-height: 41px;
+    width: 41px;
+    left: 55%;
+    transform: translateX(-50%);
+    font-family : Tw Cen MT;
+    font-size : 41px;
+    text-align: center;
+    letter-spacing : 6.56px;
+    color : #FFFFFF;
+
+}
+
+
+.forecast1-idea2-result-factor1-wrapper {
+    width: 81.141px;
+    height: 63.72px;
+    margin-left: 11.286px;
+    margin-top: 6px;
+}
+
+.forecast1-idea2-result-factor1-title-wrapper {
+    width: 100%;
+    height: 16px;
+    background: #D8D9DA;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    color : #231F20;
+    line-height: 16px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-idea2-result-factor1-main1 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    color : #231F20;
+    text-align: center;
+    margin-top: 10.1px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea2-result-factor1-main2 {
+    font-size : 7px;
+    display: inline;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    color : #231F20;
+    margin-left: 7px;
+    margin-top: 60px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea2-result-factor1-main3 {
+    font-size : 19px;
+    display: inline;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    color : #231F20;
+    margin-left: 7px;
+    margin-top: 60px;
+    font-family: 'Noto Sans Japanese',sans-ser
+}
+
+.forecast1-idea2-result-factor2-wrapper {
+    width: 105.9px;
+    height: 63.72px;
+    margin-left: 11.286px;
+    margin-top: 6px;
+}
+
+.forecast1-idea2-result-factor2-title-wrapper {
+    width: 100%;
+    height: 16px;
+    background: #D8D9DA;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    color : #231F20;
+    line-height: 16px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-idea2-result-factor2-main-wrapper {
+    width: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forecast1-idea2-result-factor2-main1 {
+    font-size : 7px;
+    line-height: 9px;
+    color : #231F20;
+    margin-top: 10.1px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing : 0.6px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast1-idea2-result-factor2-main2 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea2-result-factor2-main3 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea2-result-factor2-main4 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast1-idea2-result-factor3-wrapper {
+    width: 108px;
+    height: 63.72px;
+    margin-left: 11.286px;
+    margin-top: 6px;
+}
+
+.forecast1-idea2-result-factor3-title-wrapper {
+    width: 100%;
+    height: 16px;
+    background: #D8D9DA;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    color : #231F20;
+    line-height: 16px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    text-align: center;
+}
+
+.forecast1-idea2-result-factor3-main-wrapper {
+    width: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forecast1-idea2-result-factor3-main1 {
+    font-size : 7px;
+    line-height: 9px;
+    color : #231F20;
+    margin-top: 10.1px;
+    letter-spacing : 0.6px;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast1-idea2-result-factor3-main2 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea2-result-factor3-main3 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast1-idea2-result-factor3-main4 {
+    font-size : 7px;
+    line-height: 9px;
+    letter-spacing : 1.2px;
+    margin-top: 3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+
 
 .forecast2-wrapper {
     width: 100%;
@@ -250,6 +885,132 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.forecast2-result-graph-wrapper {
+    width: 490.645px;
+    height: 101.147px;
+    margin-left:18px;
+}
+
+.forecast2-result-idea1-factor-wrapper {
+    width: 141.322px;
+    height: 20.955px;
+    margin-left: 18px;
+    margin-top: 13px;
+}
+
+.forecast2-result-idea1-factor-title {
+    background : #447FC1;
+    width: 100%;
+    height: 21px;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    line-height: 21px;
+    text-align: center;
+    color : #FFFFFF;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast2-result-idea1-factor-main-wrapper {
+    width:100%;
+    height: 62.816px;
+    display: flex;
+    margin-top: 14.4px;
+}
+
+.forecast2-result-idea1-factor-main-1 {
+    font-size : 9px;
+    line-height : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast2-result-idea1-factor-main-1-title {
+    font-size : 8px;
+    letter-spacing : 0.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast2-result-idea1-factor-main-2 {
+    font-size : 9px;
+    line-height : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left:16.7px;
+}
+
+.forecast2-result-idea1-factor-main-2-title {
+    font-size : 8px;
+    letter-spacing : 0.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast2-result-idea2-factor-wrapper {
+    width: 141.322px;
+    height: 20.955px;
+    margin-left: 18px;
+    margin-top: 13px;
+}
+
+.forecast2-result-idea2-factor-title {
+    background :#EF5BA1;
+    width: 100%;
+    height: 21px;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    line-height: 21px;
+    text-align: center;
+    color : #FFFFFF;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast2-result-idea2-factor-main-wrapper {
+    width:100%;
+    height: 62.816px;
+    display: flex;
+    margin-top: 14.4px;
+}
+
+.forecast2-result-idea2-factor-main-1 {
+    font-size : 9px;
+    line-height : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast2-result-idea2-factor-main-1-title {
+    font-size : 8px;
+    letter-spacing : 0.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast2-result-idea2-factor-main-2 {
+    font-size : 9px;
+    line-height : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left:16.7px;
+}
+
+.forecast2-result-idea2-factor-main-2-title {
+    font-size : 8px;
+    letter-spacing : 0.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+
+
+
 .forecast3-wrapper {
     width: 100%;
     height: 129.5px;
@@ -277,6 +1038,132 @@ body {
     top:50%;
     transform: translate(-50%, -50%);
 }
+
+
+.forecast3-result-graph-wrapper {
+    width: 490.645px;
+    height: 101.147px;
+    margin-left:18px;
+}
+
+.forecast3-result-idea1-factor-wrapper {
+    width: 141.322px;
+    height: 20.955px;
+    margin-left: 18px;
+    margin-top: 13px;
+}
+
+.forecast3-result-idea1-factor-title {
+    background : #447FC1;
+    width: 100%;
+    height: 21px;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    line-height: 21px;
+    text-align: center;
+    color : #FFFFFF;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast3-result-idea1-factor-main-wrapper {
+    width:100%;
+    height: 62.816px;
+    display: flex;
+    margin-top: 14.4px;
+}
+
+.forecast3-result-idea1-factor-main-1 {
+    font-size : 9px;
+    line-height : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast3-result-idea1-factor-main-1-title {
+    font-size : 8px;
+    letter-spacing : 0.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast3-result-idea1-factor-main-2 {
+    font-size : 9px;
+    line-height : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left:16.7px;
+}
+
+.forecast3-result-idea1-factor-main-2-title {
+    font-size : 8px;
+    letter-spacing : 0.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast3-result-idea2-factor-wrapper {
+    width: 141.322px;
+    height: 20.955px;
+    margin-left: 18px;
+    margin-top: 13px;
+}
+
+.forecast3-result-idea2-factor-title {
+    background :#EF5BA1;
+    width: 100%;
+    height: 21px;
+    font-size : 9px;
+    letter-spacing : 1.8px;
+    line-height: 21px;
+    text-align: center;
+    color : #FFFFFF;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast3-result-idea2-factor-main-wrapper {
+    width:100%;
+    height: 62.816px;
+    display: flex;
+    margin-top: 14.4px;
+}
+
+.forecast3-result-idea2-factor-main-1 {
+    font-size : 9px;
+    line-height : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+.forecast3-result-idea2-factor-main-1-title {
+    font-size : 8px;
+    letter-spacing : 0.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+.forecast3-result-idea2-factor-main-2 {
+    font-size : 9px;
+    line-height : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+    margin-left:16.7px;
+}
+
+.forecast3-result-idea2-factor-main-2-title {
+    font-size : 8px;
+    letter-spacing : 0.8px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese',sans-serif;
+}
+
+
+
 
 .result-operation-wrapper {
     width: 100%;

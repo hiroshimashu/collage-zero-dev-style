@@ -1,0 +1,392 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ----------------- User maintain screen ----------------- */
+.data-maintain-wrapper {
+    width: 1024px;
+    height: 767px;
+    background-color: #EDEDEE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data-maintain-header-wrapper {
+    width: 100%;
+    height: 50.56px;
+    display: flex;
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(0, 0, 0, 1) 0%,rgba(0, 5, 6, 1) 5.54%,rgba(0, 18, 24, 1) 13.21%,rgba(0, 39, 53, 1) 22.1%,rgba(0, 69, 94, 1) 31.93%,rgba(0, 107, 147, 1) 42.52%,rgba(0, 153, 210, 1) 53.58%,rgba(0, 174, 239, 1) 58.32%,rgba(0, 0, 0, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(0, 0, 0, 1) ),color-stop(0.0554,rgba(0, 5, 6, 1) ),color-stop(0.1321,rgba(0, 18, 24, 1) ),color-stop(0.221,rgba(0, 39, 53, 1) ),color-stop(0.3193,rgba(0, 69, 94, 1) ),color-stop(0.4252,rgba(0, 107, 147, 1) ),color-stop(0.5358,rgba(0, 153, 210, 1) ),color-stop(0.5832,rgba(0, 174, 239, 1) ),color-stop(1,rgba(0, 0, 0, 1) ));
+    background : -o-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    background : -ms-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000' ,GradientType=0)";
+    background : linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 5, 6, 1) 5.54%, rgba(0, 18, 24, 1) 13.21%, rgba(0, 39, 53, 1) 22.1%, rgba(0, 69, 94, 1) 31.93%, rgba(0, 107, 147, 1) 42.52%, rgba(0, 153, 210, 1) 53.58%, rgba(0, 174, 239, 1) 58.32%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#000000' , GradientType=1);
+}
+
+.data-maintain-header-title {
+    font-size: 13px;
+    color: white;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    line-height: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 32.3px;
+    letter-spacing: 2.8pt;
+}
+
+.data-maintain-header-title2 {
+    width: 187.5px;
+    height: 14.9px;
+    margin-left: 237.58px;
+    margin-top: 17.82px;
+}
+
+.data-maintain-header-close-button {
+    width: 15px;
+    height: 15px;
+    margin-left: 370.798px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.data-maintain-main-wrapper {
+    width: 100%;
+    height: 643.83px;
+}
+
+.data-maintain-main-admin-wrapper {
+    position: relative;
+    width: 176.474px;
+    height: 29px;
+    margin-left:833.26px;
+    margin-top: 24px;
+    background: #ffffff;
+}
+
+.data-maintain-main-admin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 125px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    letter-spacing: 2.4px;
+}
+
+
+.data-maintain-main-trained-data-wrapper {
+    width: 698.877px;
+    height: 43.333px;
+    display: flex;
+    margin-left: 132.767px;
+    margin-top: 106.625px;
+}
+
+.data-maintain-main-trained-data-title {
+    width: 100px;
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    line-height: 43.3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.data-maintain-main-trained-data {
+    width: 407.5px;
+    height: 32.6px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 14.8px;
+    background: #ffffff;
+}
+
+.data-maintain-main-trained-data-select {
+    width: 48.5px;
+    margin-left: 14.8px;
+    height: 32.6px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #ffffff;
+}
+
+.data-maintain-main-trained-data-go-wrapper {
+    width: 98.2px;
+    height:43.333px;
+    margin-left: 14.8px;
+    background : #00B7D6;
+    border-radius : 22px;
+    -moz-border-radius : 22px;
+    -webkit-border-radius : 22px;
+    position: relative;
+}
+
+.data-maintain-main-trained-data-go {
+    position: absolute;
+    font-size : 18px;
+    letter-spacing : 2.7px;
+    color : #FFFFFF;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.data-maintain-main-learning-process-wrapper {
+    width: 690.16px;
+    height: 43.3px;
+    margin-left: 132.767px;
+    margin-top: 66.5px;
+    display: flex;
+}
+
+.data-maintain-main-learning-process-title {
+    width: 100px;
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    line-height: 43.3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.data-maintain-main-learning-process-select-wrapper {
+    width:17px;
+    height: 17px;
+    margin-left: 31.7px;
+    margin-top: 13.1px;
+}
+
+.data-maintain-main-learning-process-select {
+    width: 100%;
+    height: 100%;
+}
+
+.data-maintain-main-learning-process-go-wrapper {
+    width: 98.2px;
+    height: 100%;
+    margin-left: 31.7px;
+    background : #00B7D6;
+    border-radius : 22px;
+    -moz-border-radius : 22px;
+    -webkit-border-radius : 22px;
+    position: relative;
+}
+
+.data-maintain-main-learning-process-go {
+    position: absolute;
+    font-size : 18px;
+    letter-spacing : 2.7px;
+    color : #FFFFFF;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.data-maintain-main-learning-process-date {
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    color : #231F20;
+    margin-left: 18.7px;
+    line-height: 43.3px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+
+.data-maintain-main-learning-process-abstract-wrapper {
+    width: 98.2px;
+    height: 100%;
+    margin-left: 18.7px;
+    background : #00B7D6;
+    border-radius : 22px;
+    -moz-border-radius : 22px;
+    -webkit-border-radius : 22px;
+    position: relative;
+}
+
+.data-maintain-main-learning-process-abstract {
+    position: absolute;
+    font-size : 18px;
+    letter-spacing : 2.7px;
+    color : #FFFFFF;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.data-maintain-main-deploy-process-wrapper {
+    width: 690.16px;
+    height: 43.3px;
+    margin-left: 132.767px;
+    margin-top: 66.5px;
+    display: flex;
+}
+
+.data-maintain-main-deploy-process-title {
+    width: 100px;
+    font-size : 18px;
+    letter-spacing : 0.9px;
+    line-height: 43.3px;
+    color : #231F20;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.data-maintain-main-deploy-process-select-wrapper {
+    width:17px;
+    height: 17px;
+    margin-left: 31.7px;
+    margin-top: 13.1px;
+}
+
+.data-maintain-main-deploy-process-select {
+    width: 100%;
+    height: 100%;
+}
+
+.data-maintain-main-deploy-process-go-wrapper {
+    width: 98.2px;
+    height: 100%;
+    margin-left: 31.7px;
+    background : #00B7D6;
+    border-radius : 22px;
+    -moz-border-radius : 22px;
+    -webkit-border-radius : 22px;
+    position: relative;
+}
+
+.data-maintain-main-deploy-process-go {
+    position: absolute;
+    font-size : 18px;
+    letter-spacing : 2.7px;
+    color : #FFFFFF;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.data-maintain-operation-wrapper {
+    width: 100%;
+    height: 72.7px;
+    margin-top: 15.55px;
+    background : #DCDDDE;
+    display: flex;
+}
+
+.data-maintain-operation-forecast-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 45.3px;
+}
+
+.data-maintain-operation-forecast-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.data-maintain-operation-forecast {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+
+.data-maintain-operation-output-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 21.6px;
+}
+
+.data-maintain-operation-output-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.data-maintain-operation-output {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.data-maintain-operation-save-wrapper {
+    position: relative;
+    width: 197.5px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 21.6px;
+}
+
+.data-maintain-operation-save-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.data-maintain-operation-save {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.data-maintain-operation-back-wrapper {
+    position: relative;
+    width: 122.73px;
+    height: 33.9px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 857.13px;
+}
+
+.data-maintain-operation-back-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.data-maintain-operation-back {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size : 11px;
+    letter-spacing : 1.76px;
+    color : #231F20;
+    font-family:'Noto Sans Japanese',sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
