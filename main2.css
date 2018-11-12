@@ -147,7 +147,14 @@ body {
     display: flex;
 }
 
+
 .content-idea1-wrapper {
+    width: 462.282px;
+    height: 100%;
+}
+
+/* When selected */
+.content-idea1-wrapper-selected {
     width: 462.282px;
     height: 100%;
 }
@@ -218,6 +225,12 @@ body {
     width: 462.282px;
     height: 100%;
     margin-left: 10px;
+}
+
+/* When selected */
+.content-idea2-wrapper-selected {
+    width: 462.282px;
+    height: 100%;
 }
 
 .content-idea2-title-wrapper {

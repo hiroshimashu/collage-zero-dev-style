@@ -148,6 +148,16 @@
     margin-top: 49.4px;
 }
 
+/* When selected */
+
+.cm-info-main-search-folder-wrapper-selected {
+    width: 451.333px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 49.4px;
+}
+
 .cm-info-main-search-folder {
     width: 29.1px;
     height: 20.255px;
@@ -200,6 +210,15 @@
 }
 
 .cm-info-main-search-file-wrapper {
+    width: 451.333px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.3px;
+}
+
+/* Selected */
+.cm-info-main-search-file-wrapper-selected {
     width: 451.333px;
     display: flex;
     margin-left: auto;
